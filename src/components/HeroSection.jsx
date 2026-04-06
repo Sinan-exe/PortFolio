@@ -17,7 +17,7 @@ function HeroSection() {
             />
           </div>
           <div className="flex flex-col justify-center">
-            <span className="font-mono text-xl md:text-2xl tracking-normal">
+            <span className="font-mono text-xl md:text-2xl tracking-normal font-medium">
               Ismail Sinan.
             </span>
             <a
@@ -32,34 +32,36 @@ function HeroSection() {
           <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-4">
             {" "}
             I'm{" "}
-            <span className="text-sm md:text-base text-foreground">Sinan</span>,
-            a developer living in Dubai, UAE. I love to code and make{" "}
-            <span className="text-sm md:text-base text-foreground">
+            <span className="text-sm md:text-base text-foreground font-medium">
+              Sinan
+            </span>
+            , a developer living in Dubai, UAE. I love to code and make{" "}
+            <span className="text-sm md:text-base text-foreground font-medium">
               (break){" "}
             </span>
             things.
           </p>
           <p className="text-xs md:text-sm text-muted-foreground">
             I love both{" "}
-            <span className="text-sm md:text-base text-foreground">
+            <span className="text-sm md:text-base text-foreground font-medium">
               Development
             </span>{" "}
             &{" "}
-            <span className="text-sm md:text-base text-foreground">Design</span>
+            <span className="text-sm md:text-base text-foreground font-medium">
+              Design
+            </span>
             . So yes, I can make things look good and actually work.
-            <span className="text-sm md:text-base text-foreground">
+            <span className="text-sm md:text-base text-foreground font-medium">
               (Shocking, I know)
             </span>
           </p>
         </div>
         <div className="px-6 md:px-8 flex gap-4 pb-8">
-          <Button className="bg-secondary text-secondary-foreground text-[12px] md:text-sm border shadow-sm border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center">
+          <Button className="bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
             <img src="images/linkedin-svgrepo-com.svg" className="size-6!" />
-            <span className="text-secondary-foreground">
-              Available for new Oppurtunity
-            </span>
+            <span className="text-secondary-foreground">Get in Touch</span>
           </Button>
-          <Button className="bg-primary text-primary-foreground text-[12px] md:text-sm border shadow-sm border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center">
+          <Button className="bg-primary text-primary-foreground text-[12px] md:text-sm border shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] border-border rounded-lg hover:bg-primary hover:ring ring-ring cursor-pointer flex items-center">
             <span>
               <IconDownload />
             </span>

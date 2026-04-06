@@ -7,7 +7,7 @@ function SkillSection() {
       <div className="absolute top-0 left-2 h-full border-l border-dashed border-border" />
       <div className="absolute top-0 right-2 h-full border-r border-dashed border-border" />
       <div className="px-4 md:px-6">
-        <h1 className="font-mono text-xl md:text-2xl tracking-wide pt-4">
+        <h1 className="font-mono text-xl md:text-2xl tracking-wide pt-4 font-medium">
           Skills
         </h1>
         <p className="mt-4 text-[12px] md:text-sm text-muted-foreground mb-6">
@@ -17,17 +17,17 @@ function SkillSection() {
         <div className="space-y-4">
           {skills.map((ele) => (
             <div key={ele.title} className="mb-6">
-              <h3 className="text-base font-medium font-mono tracking-wide text-primary mb-4">
+              <h3 className="text-base  tracking-wide text-muted-foreground mb-4">
                 {ele.title}
               </h3>
               <div className="flex flex-wrap gap-3 md:gap-4">
                 {ele.item.map((skill) => (
                   <Button
-                    className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center`}
+                    className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
                     key={skill.name}
                   >
                     <img src={skill.img} className="size-5!" alt={skill.alt} />
-                    <span className="text-shadow-sm">{skill.name}</span>
+                    <span className="tracking-wide">{skill.name}</span>
                   </Button>
                 ))}
               </div>
