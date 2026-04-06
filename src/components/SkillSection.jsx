@@ -26,7 +26,7 @@ function SkillSection() {
                     className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center`}
                     key={skill.name}
                   >
-                    <img src={skill.img} className="size-5!" />
+                    <img src={skill.img} className="size-5!" alt={skill.alt} />
                     <span className="text-shadow-sm">{skill.name}</span>
                   </Button>
                 ))}
