@@ -20,10 +20,10 @@ function WorkExperience() {
                   </a>
                   <div className="flex flex-col gap-0.5">
                     <div className="flex items-center space-x-2">
-                      <span className="text-secondary-foreground font-medium text-base md:text-xl">
+                      <span className="text-secondary-foreground font-medium text-sm md:text-xl">
                         Kyoto Technologies
                       </span>
-                      <span className="text-[12px] bg-secondary px-2 rounded-lg text-secondary-foreground">
+                      <span className="text-[10px] md:text-[12px] bg-secondary px-2 rounded-lg text-secondary-foreground">
                         Intern
                       </span>
                     </div>
@@ -32,11 +32,11 @@ function WorkExperience() {
                     </span>
                   </div>
                 </div>
-                <div className="flex flex-col">
-                  <span className="text-xs md:text-base text-muted-foreground font-medium">
+                <div className="flex flex-col self-start">
+                  <span className="text-[11px] md:text-[13px] text-muted-foreground font-medium">
                     Nov 2025 - Apr 2026
                   </span>
-                  <span className="text-xs md:text-sm text-muted-foreground justify-self-end">
+                  <span className="text-[10px] md:text-[12px] text-muted-foreground justify-self-end">
                     Dubai, on-site
                   </span>
                 </div>
