@@ -13,10 +13,10 @@ function WorkExperience() {
           </h1>
           <div className="mt-6">
             <div className="flex flex-col gap-2">
-              <div className="flex justify-between">
+              <div className="flex justify-between items-center">
                 <div className="flex">
                   <a href="https://www.kyoto-tech.com/" className="p-2">
-                    <img src="public/KYOTO-logo.svg" />
+                    <img src="/KYOTO-logo.svg" />
                   </a>
                   <div className="flex flex-col gap-0.5">
                     <div className="flex items-center space-x-2">
@@ -27,7 +27,7 @@ function WorkExperience() {
                         Intern
                       </span>
                     </div>
-                    <span className="text-muted-foreground text-xs md:text-base">
+                    <span className="text-muted-foreground text-xs md:text-base font-medium">
                       Web Developer
                     </span>
                   </div>
