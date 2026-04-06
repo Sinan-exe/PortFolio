@@ -54,7 +54,7 @@ function HeroSection() {
         </div>
         <div className="px-6 md:px-8 flex gap-4 pb-8">
           <Button className="bg-secondary text-secondary-foreground text-[12px] md:text-sm border shadow-sm border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center">
-            <img src="public/linkedin-svgrepo-com.svg" className="size-6!" />
+            <img src="images/linkedin-svgrepo-com.svg" className="size-6!" />
             <span className="text-secondary-foreground">
               Available for new Oppurtunity
             </span>
