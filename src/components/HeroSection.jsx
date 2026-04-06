@@ -57,7 +57,7 @@ function HeroSection() {
           </p>
         </div>
         <div className="px-6 md:px-8 flex gap-4 pb-8">
-          <Button className="bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+          <Button className="bg-card text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
             <span className="text-secondary-foreground">Get in Touch</span>
             <img src="images/linkedin-svgrepo-com.svg" className="size-6!" />
           </Button>
