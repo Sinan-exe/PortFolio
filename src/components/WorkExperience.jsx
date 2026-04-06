@@ -15,7 +15,7 @@ function WorkExperience() {
             <div className="flex flex-col gap-2">
               <div className="flex justify-between items-center">
                 <div className="flex">
-                  <a href="https://www.kyoto-tech.com/" className="p-2">
+                  <a href="https://www.kyoto-tech.com/" className="p-1 md:p-2">
                     <img src="/KYOTO-logo.svg" />
                   </a>
                   <div className="flex flex-col gap-0.5">
@@ -41,7 +41,7 @@ function WorkExperience() {
                   </span>
                 </div>
               </div>
-              <div className="text-xs md:text-sm text-muted-foreground leading-relaxed px-8 mt-2 md:mt-4 pb-10">
+              <div className="text-xs md:text-sm text-muted-foreground leading-relaxed px-8 mt-1 md:mt-4 pb-10">
                 Built and maintained an internal CRM module from the ground up,
                 handling both development and UI design. Designed components and
                 layouts in <span className="text-foreground">Figma</span>,
