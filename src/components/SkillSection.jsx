@@ -10,6 +10,9 @@ function SkillSection() {
         <div className="px-4 md:px-6">
           <h1 className="font-mono text-xl md:text-2xl tracking-wide pt-4 font-medium">
             Skills
+            <span className="text-[12px] pl-4 text-muted-foreground font-sans">
+              which i use/know.
+            </span>
           </h1>
           <p className="mt-4 text-[12px] md:text-sm text-muted-foreground mb-6">
             These are the technologies I've learned and worked with. This list
@@ -20,12 +23,12 @@ function SkillSection() {
             {skills.map((ele) => (
               <div key={ele.title} className="pb-4">
                 <h3 className="text-sm sm:text-base tracking-wide text-muted-foreground mb-4">
-                  {ele.title}
+                  {ele.title}{" "}
                 </h3>
                 <div className="flex flex-wrap gap-3 md:gap-4">
                   {ele.item.map((skill) => (
                     <Button
-                      className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
+                      className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center shadow-[inset_-12px_-8px_40px_#46464620] `}
                       key={skill.name}
                     >
                       <img
