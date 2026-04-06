@@ -1,6 +1,6 @@
 const skills = [
   {
-    title: "<LANGUAGES/>",
+    title: "< LANGUAGES />",
     item: [
       {
         name: "JavaScript",
@@ -21,7 +21,7 @@ const skills = [
     ],
   },
   {
-    title: "<FRAMEWORK/LIBRARIES/>",
+    title: "< FRAMEWORK/LIBRARIES />",
     item: [
       { name: "React", img: "/images/react-svgrepo-com.svg", alt: "JSX" },
       {
@@ -47,7 +47,7 @@ const skills = [
     ],
   },
   {
-    title: "<BACKEND/RUNTIME/>",
+    title: "< BACKEND/RUNTIME />",
     item: [
       {
         name: "NodeJS",
@@ -57,7 +57,7 @@ const skills = [
     ],
   },
   {
-    title: "<DATABASE/>",
+    title: "< DATABASE />",
     item: [
       {
         name: "MongoDB",
@@ -68,6 +68,36 @@ const skills = [
         name: "PostgreSQL",
         img: "/images/postgresql-svgrepo-com.svg",
         alt: "PSQL",
+      },
+    ],
+  },
+  {
+    title: "< DEVELOPER TOOLS />",
+    item: [
+      {
+        name: "Figma",
+        img: "/images/figma-svgrepo-com.svg",
+        alt: "F",
+      },
+      {
+        name: "Postman",
+        img: "/images/postman-icon-svgrepo-com.svg",
+        alt: "PM",
+      },
+      {
+        name: "GitHub",
+        img: "/images/github-svgrepo-com.svg",
+        alt: "GH",
+      },
+      {
+        name: "Docker",
+        img: "/images/docker-svgrepo-com.svg",
+        alt: "DC",
+      },
+      {
+        name: "VS Code",
+        img: "/images/vs-code-svgrepo-com.svg",
+        alt: "VS",
       },
     ],
   },
