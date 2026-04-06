@@ -10,7 +10,7 @@ function SkillSection() {
         <div className="px-4 md:px-6">
           <h1 className="font-mono text-xl md:text-2xl tracking-wide pt-4 font-medium">
             Skills
-            <span className="text-[12px] pl-4 text-muted-foreground font-sans">
+            <span className="text-[12px] pl-2 text-muted-foreground font-sans">
               which i use/know.
             </span>
           </h1>
@@ -28,7 +28,7 @@ function SkillSection() {
                 <div className="flex flex-wrap gap-3 md:gap-4">
                   {ele.item.map((skill) => (
                     <Button
-                      className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center shadow-[inset_-12px_-8px_40px_#46464620] `}
+                      className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
                       key={skill.name}
                     >
                       <img
