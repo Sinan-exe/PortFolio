@@ -19,7 +19,7 @@ function SkillSection() {
             is constantly evolving as I continue to learn and grow as a
             developer.
           </p>
-          <div className="space-y-4">
+          <div className="space-y-2">
             {skills.map((ele) => (
               <div key={ele.title} className="pb-4">
                 <h3 className="text-sm sm:text-base tracking-wide text-muted-foreground mb-4">
@@ -28,7 +28,7 @@ function SkillSection() {
                 <div className="flex flex-wrap gap-3 md:gap-4">
                   {ele.item.map((skill) => (
                     <Button
-                      className={`bg-card text-card-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-card hover:ring ring-ring cursor-pointer flex items-center `}
+                      className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
                       key={skill.name}
                     >
                       <img
