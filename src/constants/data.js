@@ -35,6 +35,11 @@ const skills = [
         alt: "RR",
       },
       {
+        name: "Redux Toolkit",
+        img: "/images/redux-svgrepo-com.svg",
+        alt: "RT",
+      },
+      {
         name: "Bootstrap",
         img: "/images/bootstrap-4-logo-svgrepo-com.svg",
         alt: "BS",

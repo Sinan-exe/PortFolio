@@ -13,7 +13,14 @@ function Projects() {
           </span>
         </h1>
         <div className="mt-4 mb-10 grid sm:grid-cols-2 gap-4">
-          <Card_6 />
+          <Card_6
+            mockup="/musclenation.jpeg"
+            title="MuscleNation"
+            description="A responsive landing page for a gym brand with pricing, BMI calculator, and program showcase."
+            tags={["React", "Tailwind CSS", "Vite"]}
+            githubUrl="https://github.com/Sinan-exe/muscleNation"
+            liveUrl="https://muscle-nation.vercel.app"
+          />
           <Card_6 />
         </div>
       </div>
