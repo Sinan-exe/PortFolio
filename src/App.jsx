@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Projects from "./components/Projects";
 import SkillSection from "./components/SkillSection";
@@ -11,6 +12,7 @@ function App() {
       <SkillSection />
       <WorkExperience />
       <Projects />
+      <Footer />
       <Analytics />
     </>
   );

@@ -1,10 +1,10 @@
-import skills from "@/constants/data";
+import { skills } from "@/constants/data";
 import { Button } from "./ui/button";
 
 function SkillSection() {
   return (
-    <>
-      <div className="relative max-w-2xl mx-auto bg-background text-foreground ">
+    <section>
+      <div className="relative max-w-2xl mx-auto bg-background text-foreground pb-4">
         <div className="absolute top-0 left-2 h-full border-l border-dashed border-border" />
         <div className="absolute top-0 right-2 h-full border-r border-dashed border-border" />
         <div className="px-4 md:px-6">
@@ -48,7 +48,7 @@ function SkillSection() {
         </div>
       </div>
       <div className="w-full border-b border-dashed border-border" />
-    </>
+    </section>
   );
 }
 
