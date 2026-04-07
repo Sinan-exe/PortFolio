@@ -14,14 +14,19 @@ function Projects() {
         </h1>
         <div className="mt-4 mb-10 grid sm:grid-cols-2 gap-4">
           <Card_6
-            mockup="/musclenation.jpeg"
-            title="MuscleNation"
-            description="A responsive landing page for a gym brand with pricing, BMI calculator, and program showcase."
-            tags={["React", "Tailwind CSS", "Vite"]}
-            githubUrl="https://github.com/Sinan-exe/muscleNation"
-            liveUrl="https://muscle-nation.vercel.app"
+            src="/musclenation.jpeg"
+            title="Muscle Nation"
+            livelink="#"
+            gitlink="#"
+            content="A responsive gym landing page with pricing plans, program showcase, BMI calculator, and smooth scroll navigation. Built with vanilla HTML, CSS, and JavaScript."
           />
-          <Card_6 />
+          <Card_6
+            src="/reactpizza.jpeg"
+            title="React-Pizza-App"
+            livelink="#"
+            gitlink="#"
+            content="A fully functional pizza ordering app where users can browse a menu, manage their cart, place orders with priority delivery, and track by order ID — built with React, Redux Toolkit,React Router and Tailwind CSS."
+          />
         </div>
       </div>
     </div>

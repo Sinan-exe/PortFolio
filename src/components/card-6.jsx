@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react";
 
 const Placeholder = {
   title: <div className="bg-secondary h-8 max-w-40 w-full rounded-md" />,
@@ -32,15 +33,33 @@ const Icons = () => (
   </>
 );
 
-export const Card_6 = () => {
+export const Card_6 = ({ src, title, livelink, gitlink, content }) => {
   return (
     <Card className="relative rounded-none shadow-none p-4">
       <Icons />
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-4 sm:gap-2">
         <div>
-          <img src="/musclenation.jpeg" className="rounded-t-lg" />
+          <img src={src} className="rounded-t-lg mb-2" />
         </div>
-        <div>content</div>
+        <div className="flex flex-col">
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-lg font-mono tracking-tighter font-medium">
+              {title}
+            </h2>
+            <div className="flex gap-2 ">
+              <a href={livelink}>
+                <IconExternalLink className="text-muted-foreground" />
+              </a>
+              <a href={gitlink}>
+                <IconBrandGithub className="text-muted-foreground" />
+              </a>
+            </div>
+          </div>
+          <p className="text-[12px] sm:text-xs px-1 text-muted-foreground">
+            {content}
+          </p>
+          <div></div>
+        </div>
       </div>
     </Card>
   );

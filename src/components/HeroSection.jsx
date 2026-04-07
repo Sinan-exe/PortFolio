@@ -24,7 +24,7 @@ function HeroSection() {
               href="https://github.com/Sinan-exe"
               className="text-primary hover:text-muted-foreground text-sm md:text-base"
             >
-              @sinan-exe
+              @sinan
             </a>
           </div>
         </div>
