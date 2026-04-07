@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react";
+import { Badge } from "./ui/badge";
 
 const Placeholder = {
   title: <div className="bg-secondary h-8 max-w-40 w-full rounded-md" />,
@@ -33,7 +34,7 @@ const Icons = () => (
   </>
 );
 
-export const Card_6 = ({ src, title, livelink, gitlink, content }) => {
+export const Card_6 = ({ src, title, livelink, gitlink, content, techs }) => {
   return (
     <Card className="relative rounded-none shadow-none p-4">
       <Icons />
@@ -58,7 +59,20 @@ export const Card_6 = ({ src, title, livelink, gitlink, content }) => {
           <p className="text-[12px] sm:text-xs px-1 text-muted-foreground">
             {content}
           </p>
-          <div></div>
+          {/* Tech Stack Badges */}
+          {techs.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-4">
+              {techs.map((tech) => (
+                <Badge
+                  key={tech}
+                  variant="secondary"
+                  className="text-[11px] rounded-md bg-muted text-muted-foreground font-medium"
+                >
+                  {tech}
+                </Badge>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </Card>

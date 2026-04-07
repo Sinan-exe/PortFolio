@@ -19,13 +19,15 @@ function Projects() {
             livelink="#"
             gitlink="#"
             content="A responsive gym landing page with pricing plans, program showcase, BMI calculator, and smooth scroll navigation. Built with vanilla HTML, CSS, and JavaScript."
+            techs={["React", "TailwindCSS", "TypeScript"]}
           />
           <Card_6
             src="/reactpizza.jpeg"
             title="React-Pizza-App"
             livelink="#"
             gitlink="#"
-            content="A fully functional pizza ordering app where users can browse a menu, manage their cart, place orders with priority delivery, and track by order ID — built with React, Redux Toolkit,React Router and Tailwind CSS."
+            content="A fully functional pizza ordering app where users can browse a menu, manage their cart, place orders with priority delivery, and track by order ID. Built with React, Redux Toolkit,React Router and Tailwind CSS."
+            techs={["React", "TailwindCSS", "TypeScript"]}
           />
         </div>
       </div>
