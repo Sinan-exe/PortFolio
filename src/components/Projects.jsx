@@ -14,20 +14,34 @@ function Projects() {
         </h1>
         <div className="mt-4 mb-10 grid sm:grid-cols-2 gap-4">
           <Card_6
-            src="/musclenation.jpeg"
+            src="/muscleNation-img.jpeg"
             title="Muscle Nation"
             livelink="#"
             gitlink="#"
-            content="A responsive gym landing page with pricing plans, program showcase, BMI calculator, and smooth scroll navigation. Built with vanilla HTML, CSS, and JavaScript."
-            techs={["React", "TailwindCSS", "TypeScript"]}
+            content="A responsive gym landing page with pricing plans, program showcase, BMI calculator, and smooth scroll navigation.."
+            techs={["HTML", "CSS", "JavaScript", "Figma"]}
           />
           <Card_6
-            src="/reactpizza.jpeg"
-            title="React-Pizza-App"
+            src="/fastReactPizza-img.jpeg"
+            title="Fast-React-Pizza"
             livelink="#"
             gitlink="#"
-            content="A fully functional pizza ordering app where users can browse a menu, manage their cart, place orders with priority delivery, and track by order ID. Built with React, Redux Toolkit,React Router and Tailwind CSS."
-            techs={["React", "TailwindCSS", "TypeScript"]}
+            content="A fully functional pizza ordering app where users can browse a menu, manage their cart, place orders with priority delivery, and track by order ID."
+            techs={[
+              "React",
+              "TailwindCSS",
+              "JavaScript",
+              "React Router",
+              "Redux",
+            ]}
+          />
+          <Card_6
+            src="/virtualR-img.jpeg"
+            title="virtualR"
+            livelink="#"
+            gitlink="#"
+            content="A responsive landing page for a fictional VR development tool featuring pricing tiers, testimonials, and workflow sections."
+            techs={["React", "TailwindCSS", "JavaScript", "Figma"]}
           />
         </div>
       </div>

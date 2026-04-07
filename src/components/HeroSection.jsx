@@ -8,7 +8,7 @@ function HeroSection() {
       <div className="relative max-w-2xl mx-auto bg-background text-foreground ">
         <div className="absolute top-0 left-2 h-full border-l border-dashed border-border" />
         <div className="absolute top-0 right-2 h-full border-r border-dashed border-border" />
-        <div className="px-4 md:px-6 pt-10 flex gap-4 md:gap-6 items-center mb-4">
+        <div className="px-4 md:px-6 pt-6 md:pt-10 flex gap-4 md:gap-6 items-center mb-4">
           <div>
             <ProfileAvatar
               className="h-24 w-24 rounded-full"

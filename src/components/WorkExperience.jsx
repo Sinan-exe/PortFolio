@@ -15,7 +15,7 @@ function WorkExperience() {
             <div className="flex flex-col gap-2">
               <div className="flex justify-between items-center">
                 <div className="flex">
-                  <a href="https://www.kyoto-tech.com/" className="p-1 md:p-2 ">
+                  <a href="https://www.kyoto-tech.com/" className="p-2 md:p-4 ">
                     <img
                       src="/KYOTO-logo.svg"
                       className="bg-secondary rounded-lg p-1 size-12"
