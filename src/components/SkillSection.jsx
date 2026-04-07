@@ -28,7 +28,7 @@ function SkillSection() {
                 <div className="flex flex-wrap gap-3 md:gap-4">
                   {ele.item.map((skill) => (
                     <Button
-                      className={`bg-secondary text-secondary-foreground text-[12px] md:text-sm border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
+                      className={`bg-secondary text-secondary-foreground  border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
                       key={skill.name}
                     >
                       <img
@@ -36,7 +36,9 @@ function SkillSection() {
                         className="size-5!"
                         alt={skill.alt}
                       />
-                      <span className="tracking-wide">{skill.name}</span>
+                      <span className="tracking-wide text-[12px] md:text-sm">
+                        {skill.name}
+                      </span>
                     </Button>
                   ))}
                 </div>
