@@ -10,18 +10,22 @@ const links = [
   {
     name: "GitHub",
     logo: <IconBrandGithub />,
+    url: "https://github.com/Sinan-exe",
   },
   {
     name: "LinkedIn",
     logo: <IconBrandLinkedin />,
+    url: "https://www.linkedin.com/in/ismail-sinan/",
   },
   {
     name: "Twitter",
     logo: <IconBrandX />,
+    url: "https://x.com/Sinaan_dev",
   },
   {
     name: "Email",
     logo: <IconBrandGmail />,
+    url: "mailto:ismailsinan2003@gmail.com?subject=Let's%20Connect&body=Hi%20Sinan,",
   },
 ];
 
@@ -37,15 +41,17 @@ function Footer() {
         </h3>
         <div className="flex flex-wrap gap-3 md:gap-4 mt-4">
           {links.map((link) => (
-            <Button
-              className={`bg-secondary text-secondary-foreground  border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
-              key={link.name}
-            >
-              <span className=" align-middle text-primary">{link.logo}</span>
-              <span className="tracking-wide text-[12px] md:text-sm">
-                {link.name}
-              </span>
-            </Button>
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+              <Button
+                className={`bg-secondary text-secondary-foreground  border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
+                key={link.name}
+              >
+                <span className=" align-middle text-primary">{link.logo}</span>
+                <span className="tracking-wide text-[12px] md:text-sm">
+                  {link.name}
+                </span>
+              </Button>
+            </a>
           ))}
         </div>
         <p className="mt-10 text-center text-xs text-muted-foreground">

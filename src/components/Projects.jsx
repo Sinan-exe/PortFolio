@@ -1,4 +1,4 @@
-import { Card_6 } from "./card-6";
+import { ProjectCard } from "./ProjectCard";
 
 function Projects() {
   return (
@@ -14,11 +14,11 @@ function Projects() {
             </span>
           </h1>
           <div className="mt-4 grid sm:grid-cols-2 gap-4">
-            <Card_6
+            <ProjectCard
               src="/aiResume-img.jpeg"
               title="Resumind"
-              livelink="#"
-              gitlink="#"
+              livelink="https://ai-resume-analyzer-ae-mu.vercel.app/"
+              gitlink="https://github.com/Sinan-exe/ai-resume-analyzer"
               content="A modern AI-powered web application that helps job seekers analyze their resumes and improve their chances of landing interviews."
               techs={[
                 "React",
@@ -30,11 +30,11 @@ function Projects() {
                 "LLM",
               ]}
             />
-            <Card_6
+            <ProjectCard
               src="/fastReactPizza-img.jpeg"
               title="Fast-React-Pizza"
-              livelink="#"
-              gitlink="#"
+              livelink="https://fast-react-pizza-u.vercel.app/"
+              gitlink="https://github.com/Sinan-exe/Fast-React-Pizza"
               content="A fully functional pizza ordering app where users can browse a menu, manage their cart, place orders with priority delivery, and track by order ID."
               techs={[
                 "React",
@@ -44,19 +44,19 @@ function Projects() {
                 "Redux",
               ]}
             />
-            <Card_6
+            <ProjectCard
               src="/virtualR-img.jpeg"
               title="virtualR"
-              livelink="#"
-              gitlink="#"
+              livelink="https://virtual-r-liart-alpha.vercel.app"
+              gitlink="https://github.com/Sinan-exe/virtualR"
               content="A responsive landing page for a fictional VR development tool featuring pricing tiers, testimonials, and workflow sections."
               techs={["React", "TailwindCSS", "JavaScript", "Figma"]}
             />
-            <Card_6
+            <ProjectCard
               src="/muscleNation-img.jpeg"
               title="Muscle Nation"
-              livelink="#"
-              gitlink="#"
+              livelink="https://muscle-nation.vercel.app"
+              gitlink="https://github.com/Sinan-exe/MuscleNation"
               content="A responsive gym landing page with pricing plans, program showcase, BMI calculator, and smooth scroll navigation.."
               techs={["HTML", "CSS", "JavaScript", "Figma"]}
             />

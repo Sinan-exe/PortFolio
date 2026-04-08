@@ -34,7 +34,14 @@ const Icons = () => (
   </>
 );
 
-export const Card_6 = ({ src, title, livelink, gitlink, content, techs }) => {
+export const ProjectCard = ({
+  src,
+  title,
+  livelink,
+  gitlink,
+  content,
+  techs,
+}) => {
   return (
     <Card className="relative rounded-none shadow-none p-4">
       <Icons />
@@ -48,10 +55,10 @@ export const Card_6 = ({ src, title, livelink, gitlink, content, techs }) => {
               {title}
             </h2>
             <div className="flex gap-2 ">
-              <a href={livelink}>
+              <a href={livelink} target="_blank" rel="noopener noreferrer">
                 <IconExternalLink className="text-muted-foreground" />
               </a>
-              <a href={gitlink}>
+              <a href={gitlink} target="_blank" rel="noopener noreferrer">
                 <IconBrandGithub className="text-muted-foreground" />
               </a>
             </div>
