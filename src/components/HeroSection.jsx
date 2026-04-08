@@ -31,27 +31,17 @@ function HeroSection() {
         <div className="px-6 md:px-8 mb-8">
           <p className="text-xs md:text-sm text-muted-foreground mb-2 md:mb-4">
             {" "}
-            I'm{" "}
-            <span className="text-sm md:text-base text-foreground font-medium">
-              Sinan
-            </span>
-            , a developer living in Dubai, UAE. I love to code and make{" "}
-            <span className="text-sm md:text-base text-foreground font-medium">
-              (break){" "}
-            </span>
+            I'm <span className=" text-foreground font-medium">Sinan</span>, a
+            developer living in Dubai, UAE. I love to code and make{" "}
+            <span className=" text-foreground font-medium">(break) </span>
             things.
           </p>
           <p className="text-xs md:text-sm text-muted-foreground">
             I love both{" "}
-            <span className="text-sm md:text-base text-foreground font-medium">
-              Development
-            </span>{" "}
-            &{" "}
-            <span className="text-sm md:text-base text-foreground font-medium">
-              Design
-            </span>
-            . So yes, I can make things look good and actually work.
-            <span className="text-sm md:text-base text-foreground font-medium">
+            <span className=" text-foreground font-medium">Development</span> &{" "}
+            <span className=" text-foreground font-medium">Design</span>. So
+            yes, I can make things look good and actually work.
+            <span className=" text-foreground font-medium">
               (Shocking, I know)
             </span>
           </p>

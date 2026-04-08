@@ -41,7 +41,7 @@ function Footer() {
               className={`bg-secondary text-secondary-foreground  border  border-border rounded-lg hover:bg-secondary hover:ring ring-ring cursor-pointer flex items-center `}
               key={link.name}
             >
-              <span className=" align-middle">{link.logo}</span>
+              <span className=" align-middle text-primary">{link.logo}</span>
               <span className="tracking-wide text-[12px] md:text-sm">
                 {link.name}
               </span>

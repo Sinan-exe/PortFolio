@@ -15,12 +15,20 @@ function Projects() {
           </h1>
           <div className="mt-4 grid sm:grid-cols-2 gap-4">
             <Card_6
-              src="/muscleNation-img.jpeg"
-              title="Muscle Nation"
+              src="/aiResume-img.jpeg"
+              title="Resumind"
               livelink="#"
               gitlink="#"
-              content="A responsive gym landing page with pricing plans, program showcase, BMI calculator, and smooth scroll navigation.."
-              techs={["HTML", "CSS", "JavaScript", "Figma"]}
+              content="A modern AI-powered web application that helps job seekers analyze their resumes and improve their chances of landing interviews."
+              techs={[
+                "React",
+                "TailwindCSS",
+                "JavaScript",
+                "Figma",
+                "PuterJS",
+                "React Router",
+                "LLM",
+              ]}
             />
             <Card_6
               src="/fastReactPizza-img.jpeg"
@@ -43,6 +51,14 @@ function Projects() {
               gitlink="#"
               content="A responsive landing page for a fictional VR development tool featuring pricing tiers, testimonials, and workflow sections."
               techs={["React", "TailwindCSS", "JavaScript", "Figma"]}
+            />
+            <Card_6
+              src="/muscleNation-img.jpeg"
+              title="Muscle Nation"
+              livelink="#"
+              gitlink="#"
+              content="A responsive gym landing page with pricing plans, program showcase, BMI calculator, and smooth scroll navigation.."
+              techs={["HTML", "CSS", "JavaScript", "Figma"]}
             />
           </div>
         </div>
