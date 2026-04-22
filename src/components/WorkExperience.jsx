@@ -42,7 +42,7 @@ function WorkExperience() {
                 </div>
                 <div className="flex flex-col ">
                   <span className="text-[11px] md:text-[13px] text-muted-foreground font-medium">
-                    Nov 2025 - Apr 2026
+                    Nov 2025 - present
                   </span>
                   <span className="text-[10px] md:text-[12px] text-muted-foreground ">
                     Dubai, on-site
@@ -50,7 +50,7 @@ function WorkExperience() {
                 </div>
               </div>
               <div className="text-xs md:text-sm text-muted-foreground leading-relaxed px-4 mt-1 md:mt-3 pb-10">
-                Built and maintained an internal CRM module from the ground up,
+                Built and maintained an internal HRMS module from the ground up,
                 handling both development and UI design. Designed components and
                 layouts in <span className="text-foreground">Figma</span>,
                 implemented them using{" "}
