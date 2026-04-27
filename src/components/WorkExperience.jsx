@@ -32,7 +32,7 @@ function WorkExperience() {
                         Kyoto Technologies
                       </span>
                       <span className="text-[10px] md:text-[12px] bg-secondary px-2 rounded-lg text-secondary-foreground">
-                        Intern
+                        intern
                       </span>
                     </div>
                     <span className="text-muted-foreground text-xs md:text-base font-medium">
@@ -42,24 +42,68 @@ function WorkExperience() {
                 </div>
                 <div className="flex flex-col ">
                   <span className="text-[11px] md:text-[13px] text-muted-foreground font-medium">
-                    Nov 2025 - present
+                    Nov 2025 - APR 2026
                   </span>
                   <span className="text-[10px] md:text-[12px] text-muted-foreground ">
                     Dubai, on-site
                   </span>
                 </div>
               </div>
-              <div className="text-xs md:text-sm text-muted-foreground leading-relaxed px-4 mt-1 md:mt-3 pb-10">
+              <div className="text-xs md:text-sm text-muted-foreground leading-relaxed px-4 mt-1 md:mt-3 pb-10 text-balance">
                 Built and maintained an internal HRMS module from the ground up,
                 handling both development and UI design. Designed components and
-                layouts in <span className="text-foreground">Figma</span>,
-                implemented them using{" "}
-                <span className="text-foreground">React</span> and{" "}
-                <span className="text-foreground">Tailwind CSS</span>, and
-                tested backend endpoints via{" "}
-                <span className="text-foreground">Postman</span>. Took ownership
-                of frontend consistency across the product, ensuring a clean and
+                layouts in Figma, implemented them using React and Tailwind CSS,
+                and tested backend endpoints via Postman. Took ownership of
+                frontend consistency across the product, ensuring a clean and
                 functional user experience.
+              </div>
+            </div>
+
+            {/* Varcons */}
+            <div className="flex flex-col gap-2">
+              <div className="flex justify-between items-center">
+                <div className="flex">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-2 md:p-4 "
+                  >
+                    <img
+                      src="/varcons-logo.jpg"
+                      className="bg-secondary rounded-lg p-1 size-12"
+                    />
+                  </a>
+                  <div className="flex flex-col gap-0.5 justify-center">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-secondary-foreground font-medium text-sm md:text-xl">
+                        Varcons Technologies
+                      </span>
+                      <span className="text-[10px] md:text-[12px] bg-secondary px-2 rounded-lg text-secondary-foreground">
+                        intern
+                      </span>
+                    </div>
+                    <span className="text-muted-foreground text-xs md:text-base font-medium">
+                      Full-stack Developer
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col ">
+                  <span className="text-[11px] md:text-[13px] text-muted-foreground font-medium">
+                    JAN 2025 - MAY 2026
+                  </span>
+                  <span className="text-[10px] md:text-[12px] text-muted-foreground ">
+                    Bangalore, remote
+                  </span>
+                </div>
+              </div>
+              <div className="text-xs md:text-sm text-muted-foreground leading-relaxed px-4 mt-1 md:mt-3 pb-10 text-balance">
+                Optimized React components and state management to improve UI
+                performance and reduce unnecessary re-renders. Built full-stack
+                features using Node.js and Express.js, designed REST APIs, and
+                integrated MongoDB and PostgreSQL for efficient data handling.
+                Ensured smooth frontend-backend communication with responsive
+                and reliable UI implementation.
               </div>
             </div>
           </div>
