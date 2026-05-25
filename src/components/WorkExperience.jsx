@@ -90,7 +90,7 @@ function WorkExperience() {
                 </div>
                 <div className="flex flex-col ">
                   <span className="text-[11px] md:text-[13px] text-muted-foreground font-medium">
-                    JAN 2025 - MAY 2026
+                    JAN 2025 - MAY 2025
                   </span>
                   <span className="text-[10px] md:text-[12px] text-muted-foreground ">
                     Bangalore, remote
